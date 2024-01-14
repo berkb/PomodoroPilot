@@ -9,10 +9,11 @@ export default function Footer() {
     <div className="editor text-center text-[11px] leading-[15px] text-white/90 w-[300px] sm:w-auto sm:max-w-[250px] px-[10px]">
       <SocialShareButtons url={pageUrl} title={pageTitle} />
       Pomodoro Pilot from 
-      <a href="https://garagedev.co/" rel="noopener noreferrer" target="_blank">
+      <a class="footer-link" href="https://garagedev.co/" rel="noopener noreferrer" target="_blank">
          Garage Dev
       </a>
-      . Work, study and relax.{' '}
+      .<br/>
+        Work, study and relax.{' '}
     </div>
   )
 }
