@@ -1,0 +1,18 @@
+/* components/SocialShareButtons.css */
+
+.social-buttons-container {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .social-button {
+    color: #333;
+    text-decoration: none;
+    font-size: 20px;
+    transition: color 0.3s ease;
+  }
+  
+  .social-button:hover {
+    color: #0070f3; /* Varsayılan Next.js mavi rengi, istediğiniz rengi kullanabilirsiniz */
+  }
+  

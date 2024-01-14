@@ -1,0 +1,91 @@
+.pomodoro-timer {
+    text-align: center;
+    margin: 50px auto;
+    padding: 20px;
+    border: 2px solid #3498db;
+    border-radius: 8px;
+    max-width: 600px;
+  }
+  
+  .pomodoro-timer h1 {
+    color: #333;
+  }
+  
+  .pomodoro-timer p {
+    font-size: 6em;
+    color: #4285f4;
+    margin: 10px 0;
+  }
+  
+  .pomodoro-timer div {
+    margin-top: 20px;
+  }
+
+  .pomodoro-timer ul {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+    margin: auto;
+    width: 300px;
+    font-size: 1.2rem;
+  }
+  
+  .pomodoro-timer button {
+    font-size: 1em;
+    margin: 5px;
+    padding: 10px;
+    cursor: pointer;
+    background-color: #4285f4;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .pomodoro-timer button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .pomodoro-timer input {
+    font-size: 1em;
+    margin: 5px;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .pomodoro-timer input::placeholder {
+    color: #aaa;
+  }
+  
+  .pomodoro-timer input:focus {
+    outline: none;
+    border-color: #4285f4;
+  }
+  
+  .pomodoro-timer .buttons-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .pomodoro-timer .buttons-container button {
+    font-size: 1em;
+    margin: 5px;
+    padding: 10px;
+    cursor: pointer;
+    background-color: #4285f4;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .pomodoro-timer .buttons-container button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .pomodoro-timer .timer-functions {
+    display: grid;
+  }

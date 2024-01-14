@@ -1,0 +1,22 @@
+/* components/SocialShareButtons.css */
+
+.social-buttons-container {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  
+  .social-button {
+    color: #fff; /* Beyaz renk */
+    font-size: 30px; /* Büyütülmüş boyut */
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .social-button:hover {
+    color: #0070f3; /* Hover rengi - isteğe bağlı, kullanabilirsiniz */
+  }
+  

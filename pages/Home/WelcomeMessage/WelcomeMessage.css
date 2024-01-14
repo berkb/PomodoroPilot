@@ -1,0 +1,20 @@
+/* WelcomeMessage.css */
+
+.welcome-container {
+    text-align: center;
+    margin: 50px auto;
+    padding: 20px;
+    border: 2px solid #3498db;
+    border-radius: 8px;
+    max-width: 600px;
+}
+
+.welcome-heading {
+    color: #3498db;
+    font-size: 2em;
+}
+
+.welcome-text {
+    color: #555;
+    font-size: 1.2em;
+}

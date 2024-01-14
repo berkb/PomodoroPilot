@@ -1,0 +1,15 @@
+{
+  "name": "Plofier | Lofi Player",
+  "short_name": "Plofier",
+  "description": "Work, study and relax with simple web app for background Lofi music",
+  "orientation": "portrait",
+  "start_url": "/",
+  "scope": ".",
+  "icons": [
+    { "src": "/icon-192.png", "type": "image/png", "sizes": "192x192" },
+    { "src": "/icon-512.png", "type": "image/png", "sizes": "512x512" }
+  ],
+  "display": "fullscreen",
+  "theme_color": "#e5e5e5",
+  "categories": "music"
+}
