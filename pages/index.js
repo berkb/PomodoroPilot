@@ -15,12 +15,11 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 
 // Import Swiper styles
 import 'swiper/css';
-import 'swiper/css/effect-flip';
-import 'swiper/css/pagination';
+import 'swiper/css/effect-cards';
 import 'swiper/css/navigation';
 
 // import required modules
-import { EffectFlip, Pagination, Navigation } from 'swiper/modules';
+import { EffectCards, Navigation } from 'swiper/modules';
 
 export default function Home() {
   initPlayer()
@@ -46,7 +45,7 @@ export default function Home() {
             grabCursor={true}
             navigation={true}
             loop={true}
-            modules={[EffectFlip, Pagination, Navigation]}
+            modules={[EffectCards, Navigation]}
             className="mySwiper"
           >
             <SwiperSlide>
