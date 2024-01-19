@@ -66,20 +66,26 @@ const SkipBackButton = () => {
 export default function Player() {
   const { currentChannel, setVolume, volume } = usePlayer();
 
+  const handleVolumeChange = (value) => {
+    setVolume(value);
+  };
+
   return (
-    <div className="flex flex-wrap justify-center">
+    <div className="radio flex flex-wrap justify-center mt-4">
       <div className="select-none bg-black/20 backdrop-blur-md px-[5px] py-[5px] mb-[25px] sm:mb-0 rounded-[17px]">
         <div className="flex flex-col items-center justify-center">
           <div className="my-4 text-white">{currentChannel && currentChannel.name}</div>
           {/* Volume Control */}
-          <input
-            type="range"
-            min="0"
-            max="100"
-            value={volume}
-            onChange={(e) => setVolume(parseInt(e.target.value, 10))}
-            className="w-full h-5"
-          />
+          <div className="slider-container">
+            <input
+              type="range"
+              min="0"
+              max="100"
+              value={volume}
+              onChange={(e) => handleVolumeChange(parseInt(e.target.value, 10))}
+              className="range-input"
+            />
+          </div>
           <div className="flex space-x-[5px]">
             <SkipBackButton />
             <PlayButton />

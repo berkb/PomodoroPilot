@@ -1,7 +1,7 @@
 {
-  "name": "Plofier | Lofi Player",
-  "short_name": "Plofier",
-  "description": "Work, study and relax with simple web app for background Lofi music",
+  "name": "Pomodoro Pilot | Pomodoro app with Lofi Player",
+  "short_name": "Pomodoro Pilot",
+  "description": "Work, study and relax with Pomodoro pilot",
   "orientation": "portrait",
   "start_url": "/",
   "scope": ".",
@@ -11,5 +11,5 @@
   ],
   "display": "fullscreen",
   "theme_color": "#e5e5e5",
-  "categories": "music"
+  "categories": "study, music"
 }

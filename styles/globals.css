@@ -7,17 +7,23 @@
     @apply text-white/50 hover:text-white transition-colors;
   }
 }
+
+body{
+  font-weight: 200;
+}
+
 .pomodoro-timer {
   text-align: center;
   margin: 30px auto;
   padding: 20px;
-  border: 2px solid white;
-  border-radius: 8px;
   max-width: 600px;
+  width: calc(100vw - 60px);
+  cursor: default;
 }
 
 .pomodoro-timer h1 {
-  color: #333;
+  font-size: 1.5em;
+  color: #fff;
 }
 
 .pomodoro-timer p {
@@ -32,10 +38,10 @@
 .pomodoro-timer ul {
   list-style: none;
   padding: 0;
-  text-align: left;
+  text-align: center;
   margin: auto;
   width: 300px;
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 
 .pomodoro-timer button {
@@ -54,6 +60,11 @@
   cursor: not-allowed;
 }
 
+.pomodoro-timer .timer-buttons{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
 .pomodoro-timer input {
   font-size: 0.8em;
   margin: 5px;
@@ -61,6 +72,7 @@
   text-align: center;
   border: 1px solid #ccc;
   border-radius: 5px;
+  width: 100px;
 }
 
 .pomodoro-timer input::placeholder {
@@ -103,21 +115,19 @@
 }
 
 /* KeyFeatures.css */
-
 .key-features {
-  margin: 0px auto;
+  margin: 0 auto;
   padding: 20px;
-  border: 2px solid white;
-  border-radius: 8px;
   max-width: 600px;
+  cursor: default;
+  text-align: left;
+  background-color: rgba(0,0,0,.2);
+  border-radius: 17px;
 }
 
-.key-features h2 {
+.key-features h2, .key-features h3 {
   color: white;
-}
-
-.key-features h3 {
-  color: white;
+  font-size: 1.2rem;
 }
 
 .key-features p {
@@ -141,15 +151,22 @@
   color: white;
 }
 
+@media only screen and (max-width: 768px) {
+  .key-features {
+    height: 300px;
+    overflow-y: scroll;
+    border-bottom: 20px solid transparent;
+  }
+}
+
 /* WelcomeMessage.css */
 
 .welcome-container {
   text-align: center;
-  margin: 50px auto;
+  margin: 150px auto 50px auto;
   padding: 20px;
-  border: 2px solid white;
-  border-radius: 8px;
   max-width: 600px;
+  cursor: default;
 }
 
 .welcome-heading {
@@ -190,8 +207,32 @@
 
 .content-container {
   margin-top: 20px;
+  overflow-y: auto;
+  height: calc(100vh - 200px);
 }
 
 .footer-link{
   margin-left: 5px;
+}
+
+.mySwiper{
+  width: 100vw;
+}
+
+.swiper-button-next, .swiper-button-prev {
+  color: #ff000052 !important;
+}
+
+.radio{
+  cursor: default;
+}
+
+@media only screen and (max-width: 768px) {
+  .swiper-button-next, .swiper-button-prev {
+    width: 5px !important;
+  }
+  
+  .swiper-button-next:after, .swiper-button-prev:after {
+    font-size: 30px !important;
+  }
 }
