@@ -231,8 +231,12 @@ body{
   .swiper-button-next, .swiper-button-prev {
     width: 5px !important;
   }
-  
+
   .swiper-button-next:after, .swiper-button-prev:after {
     font-size: 30px !important;
   }
+}
+
+.swiper-container {
+  overflow: visible !important; /* Önemli: Bu stil çözüm sağlayabilir */
 }
