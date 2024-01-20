@@ -27,13 +27,11 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Pomodoro Pilot</title>
-        <meta
-          name="description"
-          content="Work, study and relax with Pomodoro Pilot"
-        />
+        <title>Pomodoro Pilot: Boost Productivity with Effective Time Management </title>
+        <meta name="description" content="Enhance productivity with Pomodoro Pilot's customizable sessions, task management, and real-time tracking for work, study, and relaxation." />
+        <meta name="keywords" content="Pomodoro, productivity, time management, study, work, relaxation, task management" />
+        <meta name="author" content="Berk Belcioglu - GarageDev" />
       </Head>
-
       
       <Background />
       

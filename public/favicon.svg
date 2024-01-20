@@ -1,3 +1,19 @@
-<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M3.05376 24.5954C0.315216 20.9037 3.89121 14.1896 11.041 9.59905C18.1907 5.00852 26.2068 4.2799 28.9453 7.97164C31.6839 11.6634 28.1079 18.3775 20.9581 22.968C13.8084 27.5585 5.7923 28.2872 3.05376 24.5954Z" fill="black"/>
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="32" height="32">
+	<title>Yeni Proje</title>
+	<defs>
+		<image  width="400" height="400" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAZAAAAGQAQMAAAC6caSPAAAAAXNSR0IB2cksfwAAAANQTFRF////p8QbyAAAACpJREFUeJztwTEBAAAAwqD1T+1vBqAAAAAAAAAAAAAAAAAAAAAAAAAAgDdPsAABORaXeAAAAABJRU5ErkJggg=="/>
+		<image  width="400" height="400" id="img2" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAZAAAAGQAQMAAAC6caSPAAAAAXNSR0IB2cksfwAAAANQTFRFAAAAp3o92gAAACpJREFUeJztwTEBAAAAwqD1T+1vBqAAAAAAAAAAAAAAAAAAAAAAAAAAgDdPsAABORaXeAAAAABJRU5ErkJggg=="/>
+	</defs>
+	<style>
+		tspan { white-space:pre } 
+		.t0 { font-size: 128px;fill: #ffffff;font-weight: 400;font-family: "DubtronicInline", "Dubtronic Inline" } 
+	</style>
+	<use id="Background" href="#img1" x="0" y="0"/>
+	<use id="Layer 1" href="#img2" x="0" y="0"/>
+	<text id="POMO DORO" style="transform: matrix(1,0,0,1,200,157.359)" >
+		<tspan x="-197.7" y="0" class="t0">P</tspan><tspan  y="0" class="t0">O</tspan><tspan  y="0" class="t0">M</tspan><tspan  y="0" class="t0">O</tspan><tspan  y="0" class="t0">
+</tspan>
+		<tspan x="-196.4" y="153.6" class="t0">D</tspan><tspan  y="153.6" class="t0">O</tspan><tspan  y="153.6" class="t0">R</tspan><tspan  y="153.6" class="t0">O</tspan><tspan  y="153.6" class="t0">
+</tspan>
+	</text>
 </svg>
